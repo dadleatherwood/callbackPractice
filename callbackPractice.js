@@ -118,8 +118,6 @@ uniq(names, function(uniqArr){
 
     //Code Here
     function each (arr, cb){
-      var item = [];
-      var index = [];
       for (var i = 0; i < arr.length; i++){
         cb(arr[i], i)
       }
